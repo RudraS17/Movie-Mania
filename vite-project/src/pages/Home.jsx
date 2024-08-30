@@ -30,7 +30,7 @@ function Home() {
     return (<div>
 
         <div className="container-column">
-            <div className="col-one" > <img style={{ width: '40vw', height: '99vh', maxHeight:'99%' }} src="../src/assets/photo1.png" /> </div>
+            <div className="col-one" > <img style={{ width: '40vw', height: '99vh', maxHeight:'99%' }} src="../src/assets/Photo1.png" /> </div>
 
 
 
