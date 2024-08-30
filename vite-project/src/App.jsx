@@ -9,6 +9,7 @@ import Browse from './pages/Browse'
 import Info from './pages/Info'
 import Home from './pages/Home'
 import MovieSelection from './pages/MovieSelection'
+import NotFound from './pages/404'
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
   return (
     <div>
 
-    Hi
+    
       <BrowserRouter>
       <Routes>
 
@@ -25,6 +26,8 @@ function App() {
         <Route path='/info' element={<Info/>}/>
         <Route path='/browse' element={<Browse/>}/>
         <Route path='/movie' element={<MovieSelection/>}/>
+        <Route path='/*' element={<NotFound/>}/>
+
 
 
 
