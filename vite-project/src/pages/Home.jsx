@@ -158,7 +158,7 @@ function Home() {
                         marginLeft: "4rem",
                         paddingLeft: '1rem'
 
-                    }} className="input-field" type="text" name="userName" placeholder="UserName" value={data.username} onChange={handleChange} />
+                    }} className="input-field" type="text" name="username" placeholder="UserName" value={data.username} onChange={handleChange} />
                     
                     <span style={{color:'red',marginLeft: "4rem",fontFamily: "DM Sans"}}>{errors.username}</span>
                     
