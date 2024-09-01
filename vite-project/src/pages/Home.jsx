@@ -1,8 +1,7 @@
 import React from "react";
 import ReactDOM from 'react-dom'
-
-
-
+import Photo1 from '../assets/Photo1.png'
+// vite-project\src\assets\Photo1.png
 function Home() {
 
     const styleh1 =
@@ -101,7 +100,7 @@ function Home() {
 
         <div className="container-column" style={{ display: "flex", flexDirection: "row", gap: "20px" }
         }>
-            <div className="col-one" > <img style={{ width: '40vw', height: '99vh', maxHeight: '99%' }} src="../public/assets/Photo1.png" />
+            <div className="col-one" > <img style={{ width: '40vw', height: '99vh', maxHeight: '99%' }} src={Photo1} />
                 <h3 style={{
                     position: 'absolute',
                     bottom: '2rem',
